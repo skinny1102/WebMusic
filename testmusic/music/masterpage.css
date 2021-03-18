@@ -1,0 +1,97 @@
+﻿* {
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+
+.mainform {
+    display: grid;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+    .header h1 {
+        font-size: 50px;
+    }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #2e7ce6;
+}
+
+
+    .topnav a {
+      float:left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+
+
+        .topnav a:hover {
+            background-color: aquamarine;
+            color: whitesmoke;
+        }
+
+
+.search {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #71e4f6;
+    width: 20%;
+    height: 100%;
+    margin: 1px 0 1px 0;
+    padding: 10px;
+    border: solid 0px #71e4f6;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+    .search:hover
+    {
+        opacity:1;
+
+    }
+.btnsearch {
+    width: 2.5%;
+    height: 100%;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 10px 10px 10px 7px;
+    border: solid 0px;
+    background-color: #71e4f6;
+    opacity: 0.8;
+    border-radius:2px;
+}
+    .btnsearch:hover {
+      
+        opacity: 1;
+    }
+
+.fakeimg {
+    border: 1px solid #bbbaba;
+    background-color: #ddd;
+    padding: 20px 0px 0px 20px;
+}
+.footer 
+{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: #333;
+    margin-top: 20px;
+}
+  

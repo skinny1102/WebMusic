@@ -1,0 +1,142 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.imgg {
+    height: 70px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float:left;
+    margin:0 0 0 5px;
+}
+audio
+{
+    margin: 3px 0 0 0 ;
+
+}
+.leftcolumn {
+    background-color: #2e7ce6;
+}
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.menutheloai {
+    background-color: #2e7ce6;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li
+{
+
+    list-style:none;
+}
+ul {
+    
+}
+ul li a {
+        margin: 10px 10px 10px 10px ;
+        display: block;
+        width: 90%;
+        height: 25px;
+    }
+ul li a:hover {
+   background-color:red;
+}
+.box-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-list1 , .box-list2 , .box-list3{
+
+    
+    margin: 2px;
+    text-align:center;
+
+}
+.hhit {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.imga {
+    height: 100%;
+    width: 250px;
+    margin: 0 10px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+    .imga:hover {
+        transform: scale(1.05);
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    }
+.audion {
+    margin: 0 0 5px 10px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr;
+}
+table {
+    border: none;
+  
+}
+.bang
+{
+    width:100%;
+    border:0;
+
+
+}
+th , tr , td 
+{
+
+    border:none;
+}
+
+
+.wrap {
+
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    padding: 0 60px;
+}
+.imgwward
+{
+    width:100%;
+    height:auto;
+
+}
+.k11
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-top:10px;
+}
+.img-k11{
+    width:97%;
+    height:auto;
+    margin:1px;
+}
+.k22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k22 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
+

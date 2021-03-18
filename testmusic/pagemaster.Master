@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pagemaster.master.cs" Inherits="testmusic.pagemaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="music/masterpage.css" rel="stylesheet" />
+    <link href="masterpage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+  <form id="form1" runat="server" class="mainform">
+        <div >
+            <div class="header">
+              <h2>Banner</h2>
+            </div>
+            <div class="topnav">
+              <a href="index.aspx">Trang Chủ</a>
+                <% if (Session["dangnhap"].ToString() != "1" ){%>
+              <a href="Uploadnhac.aspx" >Upload nhạc</a>
+                 <% }%>
+                <asp:TextBox runat="server" Text="Tìm Kiếm" Cssclass="search" ></asp:TextBox> <asp:Button ID="btnsearch" Cssclass="btnsearch" runat="server" Text="Tìm"/>
+                <% if (Session["dangnhap"].ToString() == "1"){%>
+              <a href="Login.aspx" style="float:right">Login</a>
+                 <%} if (Session["dangnhap"].ToString() != "1"){  %>
+                  <a href="Logout.aspx" style="float:right" >Logout</a>  
+                <% }%>
+            </div>
+
+            <div class="row">
+              <div class="leftcolumn">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+              </div>
+              <div class="rightcolumn">
+               <asp:ContentPlaceHolder ID="Content2" runat="server">
+               </asp:ContentPlaceHolder>
+              </div>
+            </div>
+    
+            <div class="footer">
+              <h2>Footer</h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
