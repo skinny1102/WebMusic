@@ -1,0 +1,62 @@
+﻿
+.imgg {
+    height: 100px;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+audio {
+    margin: 3px 0 0 0;
+}
+
+.leftcolumn {
+    background-color: #2e7ce6;
+}
+
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menutheloai {
+    background-color: #2e7ce6;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+}
+
+    ul li a {
+        margin: 10px 10px 10px 10px;
+        display: block;
+        width: 90%;
+        height: 25px;
+    }
+
+        ul li a:hover {
+            background-color: red;
+        }
+.imgg2
+{
+
+    width:60px;
+    height:100px;
+}

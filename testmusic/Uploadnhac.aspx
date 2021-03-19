@@ -31,14 +31,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <div class="taochude">
          <asp:ScriptManager ID="scrip1" runat="server"></asp:ScriptManager>
-            <asp:UpdatePanel ID="UpdatePanel1" runat="server">                   <ContentTemplate>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                   <ContentTemplate>
                      <p> Tạo chủ đề Âm Nhạc : </p>
                   <asp:DropDownList ID="Dropdownlisttheloai" runat="server" AutoPostBack="True" OnSelectedIndexChanged="Dropdownlisttheloai_SelectedIndexChanged" >
                       </asp:DropDownList><br/>
                        <asp:Label ID="chude" runat="server"></asp:Label> 
                        <asp:Button  ID="btnxoa" CssClass="btnxoa" runat="server" text="X" OnClick="btnxoa_Click" />
                        <hr /> 
-                            </ContentTemplate>                </asp:UpdatePanel>
+                            </ContentTemplate>
+                </asp:UpdatePanel>
             <asp:Button  ID="tbnthemchude" runat="server" text="Thêm Chủ Đề" OnClick="tbnthemchude_Click" CssClass="tbnthemchude" />
      
        </div>

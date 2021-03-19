@@ -94,6 +94,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\dsdonggop.css" />
+    <Content Include="css\hienthinhac.css" />
+    <Content Include="css\nhacmoi.css" />
+    <Content Include="css\nhacvp1.css" />
+    <Content Include="css\reign.css" />
+    <Content Include="css\Suanhac.css" />
+    <Content Include="css\theloai.css" />
     <Content Include="Global.asax" />
     <Content Include="Logout.aspx" />
     <Content Include="music\index.css" />
@@ -106,6 +113,15 @@
     <Content Include="index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Uploadnhac.aspx" />
+    <Content Include="Resign.aspx" />
+    <Content Include="danhsachnhacdonggop.aspx" />
+    <Content Include="hienthinhac.aspx" />
+    <Content Include="Suanhac.aspx" />
+    <Content Include="nhacvp1.aspx" />
+    <Content Include="nhacvp2.aspx" />
+    <Content Include="Nhacmoi.aspx" />
+    <Content Include="theloai.aspx" />
+    <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileCS.ashx.cs">
@@ -164,6 +180,69 @@
     <Compile Include="Uploadnhac.aspx.designer.cs">
       <DependentUpon>Uploadnhac.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Resign.aspx.cs">
+      <DependentUpon>Resign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resign.aspx.designer.cs">
+      <DependentUpon>Resign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="danhsachnhacdonggop.aspx.cs">
+      <DependentUpon>danhsachnhacdonggop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="danhsachnhacdonggop.aspx.designer.cs">
+      <DependentUpon>danhsachnhacdonggop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hienthinhac.aspx.cs">
+      <DependentUpon>hienthinhac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hienthinhac.aspx.designer.cs">
+      <DependentUpon>hienthinhac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suanhac.aspx.cs">
+      <DependentUpon>Suanhac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suanhac.aspx.designer.cs">
+      <DependentUpon>Suanhac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nhacvp1.aspx.cs">
+      <DependentUpon>nhacvp1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nhacvp1.aspx.designer.cs">
+      <DependentUpon>nhacvp1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nhacvp2.aspx.cs">
+      <DependentUpon>nhacvp2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nhacvp2.aspx.designer.cs">
+      <DependentUpon>nhacvp2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nhacmoi.aspx.cs">
+      <DependentUpon>Nhacmoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nhacmoi.aspx.designer.cs">
+      <DependentUpon>Nhacmoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="theloai.aspx.cs">
+      <DependentUpon>theloai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="theloai.aspx.designer.cs">
+      <DependentUpon>theloai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FileCS.ashx" />
@@ -177,7 +256,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="image\" />
   </ItemGroup>
   <PropertyGroup>

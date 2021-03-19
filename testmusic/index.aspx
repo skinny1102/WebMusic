@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagemaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="testmusic.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+    <link href="music/index.css" rel="stylesheet" />
    <script type="text/javascript" >
 
        function prev() {
@@ -25,16 +25,19 @@
        <div>
            <nav class="menulist">
                <ul>
-                   <li> <a href="#"> Nhạc Mới</a></li>
-                   <li> <a href="#">Thể Loại</a></li>
+                   <li> <a href="Nhacmoi.aspx"> Nhạc Mới</a></li>
+                   <li> <a href="theloai.aspx">Thể Loại</a></li>
                    <li> <a href="#"> Top100</a></li>
                    <li> <a href="#"> Ca sĩ</a></li>
                </ul>
                <hr style="width:85%" />
+               <% if (Session["dangnhap"].ToString() != "1")
+                   {%>
                <ul>
                    <li><a href="Uploadnhac.aspx" > Đóng góp nhạc</a> </li>
-                   <li><a href="#" > Danh sách nhạc đã đóng góp</a> </li>
+                   <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
                </ul>
+               <% } %>
            </nav>
        </div>
    </div>
@@ -48,13 +51,13 @@
     </div>
          <div class="box-list" > 
                    <div class="box-list1" >
-                     <a href="#">  <img class="imga" src="/image/8246ddb97803da19aaa7cb5039e26671.jpg" /></a>
+                     <a href="nhacvp1.aspx">  <img class="imga" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>
                 </div>
                 <div class="box-list2">
-                    <a href="#"> <img class="imga"  src="/image/8246ddb97803da19aaa7cb5039e26671.jpg" /></a>
+                    <a href="#"> <img class="imga"  src="/image/6de39ea5c9b5e0b38801acb27c3fc15b.jpg" /></a>
                 </div>
             <div  class="box-list3">
-                 <a href="#"> <img class="imga"  src="/image/8246ddb97803da19aaa7cb5039e26671.jpg" /> </a>
+                 <a href="#"> <img class="imga"  src="/image/39349a90229b3f4ca9eafa69f9106932.jpg" /> </a>
             </div>
 
     </div>
@@ -74,8 +77,8 @@
             <asp:TemplateField>
                 <ItemTemplate>
                     <div class="audion">
-                   <a href="#"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r">  <%# Eval("DisplayName") %> </br> <%# Eval("casi") %></p>
+                   <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">  <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>
                       <audio   src='<%# Eval("Data") %>' controls="controls"  ></audio>
                         </div>
                         </ContentTemplate>         
@@ -86,23 +89,23 @@
     </asp:GridView>
         </div>
     </div>
-    <h3> Danh Sách nhạc gì gì đó</h3>
+    <h3> Hôm Nay Nghe Gì</h3>
    <div class="k11">
          
-      <div> <a href="#">  <img class="img-k11" src="/image/3.jpg" /> Top gì đó</a> </div>
-         <div> <a href="#">  <img class="img-k11" src="/image/3.jpg" /></a> </div>
-          <div> <a href="#">  <img class="img-k11" src="/image/3.jpg" /></a> </div>
-         <div> <a href="#">  <img class="img-k11" src="/image/3.jpg" /></a> </div>
+      <div> <a href="#">  <img class="img-k11" src="/image/877eb506f1c9cb315ebb307c9db12b40.jpg" /> Top gì đó</a> </div>
+         <div> <a href="#">  <img class="img-k11" src="/image/3b9a2890dd6262033a56614bcf22c227.jpg" /></a> </div>
+          <div> <a href="#">  <img class="img-k11" src="/image/25ba89a65c8067be5be34166f045b99e.jpg" /></a> </div>
+         <div> <a href="#">  <img class="img-k11" src="/image/3eaa1bb8b1750cf10c39d568cc061c8e.jpg" /></a> </div>
 
    </div>
-    <h3> cái này cũng vậy</h3>
+    <h3> Tâm Trạng Và Hoạt Động</h3>
     <div class="k22">
         
-      <div> <a href="#">  <img class="img-k22" src="/image/2.jpg" /> Top gì đó</a> </div>
-         <div> <a href="#">  <img class="img-k22" src="/image/2.jpg" /></a> </div>
-          <div> <a href="#">  <img class="img-k22" src="/image/2.jpg" /></a> </div>
-         <div> <a href="#">  <img class="img-k22" src="/image/2.jpg" /></a> </div>
-        <div> <a href="#">  <img class="img-k22" src="/image/2.jpg" /></a> </div>
+      <div> <a href="#">  <img class="img-k22" src="/image/92d59a48d9df9e94275b30a0718d5121.jpg" /> Top gì đó</a> </div>
+         <div> <a href="#">  <img class="img-k22" src="/image/b32dab34664c9a7f0d1f837b4babd4bb.jpg" /></a> </div>
+          <div> <a href="#">  <img class="img-k22" src="/image/4fda0068d6821c35e89a6d405b314ba0.jpg" /></a> </div>
+         <div> <a href="#">  <img class="img-k22" src="/image/d0714f6cfd28af5d7518d582285f3312.jpg" /></a> </div>
+        <div> <a href="#">  <img class="img-k22" src="/image/1a99f9d8d8c5563e3893d9f10cd8689a.jpg" /></a> </div>
    </div>
 
 </asp:Content>
