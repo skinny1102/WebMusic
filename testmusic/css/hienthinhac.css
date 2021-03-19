@@ -1,14 +1,10 @@
-﻿
-.imgg {
-    height: 100px;
-    width: 30%;
-    object-fit: cover;
-    border-radius: 15px;
-    cursor: pointer;
-    float: left;
-    margin: 0 0 0 5px;
-}
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+.naodo
+{margin:0 0 0 5px;
+
+
+}
 audio {
     margin: 3px 0 0 0;
 }
@@ -54,9 +50,78 @@ ul {
         ul li a:hover {
             background-color: red;
         }
-.imgg2
-{
+        .naodo
+        {
 
-    width:60px;
-    height:100px;
+            border:none;
+        }
+        table
+        {
+            border:none;
+        }
+        th , tr ,td
+        {
+            border:none;
+        }
+.bang {
+    width: 100%;
+    border: 0;
 }
+.audion
+{
+    display:grid;
+    grid-template-columns:3fr 6fr;
+}
+.imgg {
+    height: 180px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 5px;
+    margin:0 0 0 15px;
+}
+.klga{
+font-family: "Roboto", sans-serif; 
+    margin: 5px 0 0 10px;
+}
+.per-r {
+    margin:0;
+    font-size:130%;
+    font-weight:600;
+}
+.nhac {
+    position:relative;
+    left:-27px;
+    width:500px;
+}
+.lyric {
+    margin-top:20px;
+    height: 300px;
+    overflow: scroll;
+    padding: 0 0 0 0px;
+    position:relative;
+    left:-10px;
+    text-align:center;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.lyric-tt
+{
+    font-weight:600;
+}
+.k22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k22 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
+

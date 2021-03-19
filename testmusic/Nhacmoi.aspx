@@ -25,26 +25,21 @@
    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
+
     <div>
-    <h3> <a href="index.aspx" style="color:black"> Trang chủ </a> > Nhạc Mới </h3>
-    <div>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
+              <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - Nhạc Mới </h3>
+    <div class="nhamoi">
+        <asp:Repeater ID="GridView1" runat="server"  >        
                 <ItemTemplate>
                     <div class="audion">
                    <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>
-                     <%-- <audio   src='<%# Eval("Data") %>' controls="controls"  ></audio>--%>
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>               
                         </div>
                         </ContentTemplate>         
-                        </ItemTemplate>
-            </asp:TemplateField>
-            
-        </Columns>
-    </asp:GridView>
+                        </ItemTemplate>      
+            </asp:Repeater>
         </div>
-        </div>
+     </div>
     <div>
         <h3> Gợi ý cho bạn</h3>
          <div class="k22">

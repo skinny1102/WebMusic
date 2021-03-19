@@ -1,4 +1,10 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+﻿
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+audio {
+    margin: 3px 0 0 0;
+}
+
 .leftcolumn {
     background-color: #2e7ce6;
 }
@@ -40,19 +46,20 @@ ul {
         ul li a:hover {
             background-color: red;
         }
+
 .nhamoi {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.audion{
+
+.audion {
     margin: 5px;
-
 }
-.per-r
-{
-    margin:0 0 0 3px;
 
+.per-r {
+    margin: 0 0 0 3px;
 }
+
 .imgg {
     height: 100px;
     width: 30%;
@@ -62,10 +69,10 @@ ul {
     float: left;
     margin: 0 5px 0 5px;
 }
-.title
-{
-    color:black;
-    font-weight:600;
+
+.title {
+    color: black;
+    font-weight: 600;
 }
 
 .k22 {
@@ -79,4 +86,3 @@ ul {
     height: auto;
     margin: 1px;
 }
-

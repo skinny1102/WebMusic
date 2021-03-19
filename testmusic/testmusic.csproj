@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="css\dsdonggop.css" />
     <Content Include="css\hienthinhac.css" />
+    <Content Include="css\nametheloai.css" />
     <Content Include="css\nhacmoi.css" />
     <Content Include="css\nhacvp1.css" />
     <Content Include="css\reign.css" />
@@ -121,6 +122,8 @@
     <Content Include="nhacvp2.aspx" />
     <Content Include="Nhacmoi.aspx" />
     <Content Include="theloai.aspx" />
+    <Content Include="WebForm13.aspx" />
+    <Content Include="namethloai.aspx" />
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +238,20 @@
     </Compile>
     <Compile Include="theloai.aspx.designer.cs">
       <DependentUpon>theloai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm13.aspx.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm13.aspx.designer.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="namethloai.aspx.cs">
+      <DependentUpon>namethloai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="namethloai.aspx.designer.cs">
+      <DependentUpon>namethloai.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>

@@ -28,8 +28,8 @@ namespace testmusic
                     cmd.CommandText = " SELECT *FROM tblMusic ";
                     cmd.Connection = con;
                     con.Open();
-                    GridView1.DataSource = cmd.ExecuteReader();
-                    GridView1.DataBind();
+                    Repeater1.DataSource = cmd.ExecuteReader();
+                    Repeater1.DataBind();
                     con.Close();
                 }
             }

@@ -1,13 +1,5 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-.imgg {
-    height: 70px;
-    width: 70%;
-    object-fit: cover;
-    border-radius: 15px;
-    cursor: pointer;
-    float:left;
-    margin:0 0 0 5px;
-}
+
 audio
 {
     margin: 3px 0 0 0 ;
@@ -84,7 +76,7 @@ ul li a:hover {
     margin: 0 0 5px 10px;
     height: 70px;
     display: grid;
-    grid-template-columns: 1fr 2fr 8fr;
+    grid-template-columns: 1fr 2fr;
 }
 table {
     border: none;
@@ -111,11 +103,28 @@ th , tr , td
     height: 100%;
     padding: 0 60px;
 }
-.imgwward
-{
-    width:100%;
-    height:auto;
+.wrap2
+{display:grid;
+ grid-template-columns: 1fr 1fr;
 
+
+}
+.ahhh
+{
+    
+}
+.imgg {
+    height: 70px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 5px;
+}
+.imgwward {
+    width: 100%;
+    height: auto;
 }
 .k11
 {
@@ -144,4 +153,21 @@ th , tr , td
     color:black;
 
 }
-
+.theloai {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+}
+.theloai a{
+   
+    color:black;
+    background-color:aqua;
+    margin: 3px;
+    border-radius:5px;
+    padding:5px 0 0 0 ;
+    width:72%;
+    height:35px;
+    font-size:110%;
+    font-weight:600;
+    text-align:center;
+}

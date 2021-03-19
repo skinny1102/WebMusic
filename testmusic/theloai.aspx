@@ -28,10 +28,17 @@
     <div>
         <h3> Thể Loại</h3>
         <div>
-
-
-
-
+             <a href=""> Nhạc việt</a>
+            <a href=""> Nhạc hàn </a>
+            <a href=""> Nhạc Âu Mỹ</a>
+            <a href="" > Nhạc Hoa </a>
+            <a href="" >EDM </a>
+            <a href="" > Rap</a>
+            <a href="" > Indie </a>
+            <a href="" > Jazz</a>
+            <a href="" > R&B </a>
+            <a href="" > Nhạc Phim</a>
+       </div>
         </div>
 
 

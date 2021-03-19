@@ -72,23 +72,35 @@
             </div>
     </div>
     <div class="wrap2">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
+
+        <asp:Repeater ID="Repeater1" runat="server"  >        
                 <ItemTemplate>
                     <div class="audion">
-                   <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">  <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>
-                      <audio   src='<%# Eval("Data") %>' controls="controls"  ></audio>
+                   <a class="ahhh" href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>               
                         </div>
                         </ContentTemplate>         
-                        </ItemTemplate>
-            </asp:TemplateField>
-            
-        </Columns>
-    </asp:GridView>
+                        </ItemTemplate>      
+            </asp:Repeater>
+
         </div>
     </div>
+
+         <h3> Thể Loại</h3>
+         <div class="theloai"> 
+            <a href="namethloai.aspx?nametheloai=1" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Việt</a>
+            <a href="namethloai.aspx?nametheloai=2"> Nhạc Hàn </a>
+            <a href="namethloai.aspx?nametheloai=3" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Âu Mỹ</a>
+            <a href="namethloai.aspx?nametheloai=4" > Nhạc Hoa </a>
+            <a href="namethloai.aspx?nametheloai=5"style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%) ">EDM </a>
+            <a href="namethloai.aspx?nametheloai=6" > Rap</a>
+            <a href="namethloai.aspx?nametheloai=7" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%) "> Indie </a>
+            <a href="namethloai.aspx?nametheloai=8" > Jazz</a>
+            <a href="namethloai.aspx?nametheloai=9" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> R&B </a>
+            <a href="namethloai.aspx?nametheloai=10" > Nhạc Phim</a>
+       </div>
+
+ 
     <h3> Hôm Nay Nghe Gì</h3>
    <div class="k11">
          
@@ -100,7 +112,6 @@
    </div>
     <h3> Tâm Trạng Và Hoạt Động</h3>
     <div class="k22">
-        
       <div> <a href="#">  <img class="img-k22" src="/image/92d59a48d9df9e94275b30a0718d5121.jpg" /> Top gì đó</a> </div>
          <div> <a href="#">  <img class="img-k22" src="/image/b32dab34664c9a7f0d1f837b4babd4bb.jpg" /></a> </div>
           <div> <a href="#">  <img class="img-k22" src="/image/4fda0068d6821c35e89a6d405b314ba0.jpg" /></a> </div>

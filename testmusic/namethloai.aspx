@@ -1,15 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagemaster.Master" AutoEventWireup="true" CodeBehind="nhacvp1.aspx.cs" Inherits="testmusic.WebForm9" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagemaster.Master" AutoEventWireup="true" CodeBehind="namethloai.aspx.cs" Inherits="testmusic.WebForm14" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/nhacvp1.css" rel="stylesheet" />
+    <link href="css/nametheloai.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
    <div class="menutheloai">
        <div>
            <nav class="menulist">
                <ul>
-                   <li> <a href="#"> Nhạc Mới</a></li>
-                   <li> <a href="#">Thể Loại</a></li>
+                   <li> <a href="Nhacmoi.aspx"> Nhạc Mới</a></li>
+                   <li> <a href="theloai.aspx">Thể Loại</a></li>
                    <li> <a href="#"> Top100</a></li>
                    <li> <a href="#"> Ca sĩ</a></li>
                </ul>
@@ -24,39 +23,26 @@
            </nav>
        </div>
    </div>
-    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
-    <h3> <a  class="tit" href="index.aspx">Trang chủ</a> > Tuyệt đỉnh Vpop-Hit </h3>
-    <div>
-    <div class="warp">
-        <div class="slider">
-           <div class="item" >
-                     <a href="#">  <img class="imgwward" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>
-                </div>            
-            </div>
-    </div>
-    <div class="wrap2">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
+       <div>
+              <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - Nhạc Mới </h3>
+    <div class="nhamoi">
+        <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>
                     <div class="audion">
                    <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r">  <%# Eval("DisplayName") %> </br> <%# Eval("casi") %></p>
-                      <audio   src='<%# Eval("Data") %>' controls="controls"  ></audio>
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>               
                         </div>
                         </ContentTemplate>         
-                        </ItemTemplate>
-            </asp:TemplateField>
-            
-        </Columns>
-    </asp:GridView>
+                        </ItemTemplate>      
+            </asp:Repeater>
         </div>
-    </div>
-    <div>
+           </div>
+ <div>
         <h3> Gợi ý cho bạn</h3>
          <div class="k22">
+        
       <div> <a href="#">  <img class="img-k22" src="/image/92d59a48d9df9e94275b30a0718d5121.jpg" /> Top gì đó</a> </div>
          <div> <a href="#">  <img class="img-k22" src="/image/b32dab34664c9a7f0d1f837b4babd4bb.jpg" /></a> </div>
           <div> <a href="#">  <img class="img-k22" src="/image/4fda0068d6821c35e89a6d405b314ba0.jpg" /></a> </div>

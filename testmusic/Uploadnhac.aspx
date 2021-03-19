@@ -54,8 +54,6 @@
     
     
     <div class="form-fileup">
-     
-                                    
 
                                       <h3 class="theh3"> UpLoad Nhạc </h3>
                                                 <p> Chọn chủ đề âm nhạc</p>  
