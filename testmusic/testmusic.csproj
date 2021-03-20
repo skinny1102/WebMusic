@@ -100,6 +100,7 @@
     <Content Include="css\nametheloai.css" />
     <Content Include="css\nhacmoi.css" />
     <Content Include="css\nhacvp1.css" />
+    <Content Include="css\quanlynhac.css" />
     <Content Include="css\reign.css" />
     <Content Include="css\Suanhac.css" />
     <Content Include="css\theloai.css" />

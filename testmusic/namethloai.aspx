@@ -31,6 +31,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
        <div>
               <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - <asp:Label ID="tentheloai" runat="server" Text=""></asp:Label> </h3>
+          <hr  style="width:85%"/>
     <div class="nhamoi">
         <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>

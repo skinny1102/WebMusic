@@ -31,31 +31,30 @@
     
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
-    <h3> <a  class="tit" href="index.aspx">Trang chủ</a> > Tuyệt đỉnh Vpop-Hit </h3>
-    <div>
+    <h3 style="margin-left: 5px;"> <a  class="tit" href="index.aspx">Trang chủ</a> > Tuyệt đỉnh Vpop-Hit </h3>
+    <br  style="width:85%"/>
+    <div class="chiacot">
     <div class="warp">
         <div class="slider">
-           <div class="item" >
-                     <a href="#">  <img class="imgwward" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>
+           <div class="item" id="item" >
+              <asp:Label ID="imgg" runat="server"></asp:Label>
+                     <%--<a href="#">  <img class="imgwward" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>--%>
                 </div>            
             </div>
     </div>
     <div class="wrap2">
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
+    <asp:Repeater runat="server" ID="rpp">
                 <ItemTemplate>
                     <div class="audion">
                    <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r">  <%# Eval("DisplayName") %> </br> <%# Eval("casi") %></p>
-                      <audio   src='<%# Eval("Data") %>' controls="controls"  ></audio>
+                        <div>
+                      <a style="color:black ; font-weight:600" href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"><p class="per-r">  <%# Eval("DisplayName") %> </p></a>
+                        <p><%# Eval("casi") %></p>
+                      </div>
                         </div>
                         </ContentTemplate>         
                         </ItemTemplate>
-            </asp:TemplateField>
-            
-        </Columns>
-    </asp:GridView>
+    </asp:Repeater>
         </div>
     </div>
     <div>

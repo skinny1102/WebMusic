@@ -32,13 +32,14 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
 
-   
+    
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
         <Columns>
            
             <asp:TemplateField>
                 <ItemTemplate>
                      <h3 style="margin-left:10px"> <a href="index.aspx" style="color:black">Trang chủ</a> - Bài hát - <%# Eval("DisplayName") %> </h3>
+                     <hr  style="width:85%"/>
                     <div class="audion">
                         <div > <image class="imgg" src=" <%# Eval ("Image") %>"></image></div>
                         <div class="klga">

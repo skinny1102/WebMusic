@@ -55,13 +55,13 @@
     </div>
          <div class="box-list" > 
                    <div class="box-list1" >
-                     <a href="nhacvp1.aspx">  <img class="imga" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>
+                     <a href="nhacvp1.aspx?sut=2">  <img class="imga" src="/image/b9df30e091836ebcb4dea2bb40c34c5e.jpg" /></a>
                 </div>
                 <div class="box-list2">
-                    <a href="#"> <img class="imga"  src="/image/6de39ea5c9b5e0b38801acb27c3fc15b.jpg" /></a>
+                    <a href="nhacvp1.aspx?sut=3"> <img class="imga"  src="/image/6de39ea5c9b5e0b38801acb27c3fc15b.jpg" /></a>
                 </div>
             <div  class="box-list3">
-                 <a href="#"> <img class="imga"  src="/image/39349a90229b3f4ca9eafa69f9106932.jpg" /> </a>
+                 <a href="nhacvp1.aspx?sut=4"> <img class="imga"  src="/image/39349a90229b3f4ca9eafa69f9106932.jpg" /> </a>
             </div>
 
     </div>
