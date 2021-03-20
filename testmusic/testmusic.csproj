@@ -94,6 +94,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\chude.css" />
     <Content Include="css\dsdonggop.css" />
     <Content Include="css\hienthinhac.css" />
     <Content Include="css\nametheloai.css" />
@@ -110,6 +111,7 @@
     <Content Include="music\logincss.css" />
     <Content Include="music\masterpage.css" />
     <Content Include="music\upload.css" />
+    <Content Include="upload.ascx" />
     <Content Include="Web.config" />
     <Content Include="1111index.aspx" />
     <Content Include="index.aspx" />
@@ -126,6 +128,8 @@
     <Content Include="WebForm13.aspx" />
     <Content Include="namethloai.aspx" />
     <Content Include="timkiem.aspx" />
+    <Content Include="quanlynhac.aspx" />
+    <Content Include="chude.aspx" />
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +181,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="upload.ascx.cs">
+      <DependentUpon>upload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="upload.ascx.designer.cs">
+      <DependentUpon>upload.ascx</DependentUpon>
     </Compile>
     <Compile Include="Uploadnhac.aspx.cs">
       <DependentUpon>Uploadnhac.aspx</DependentUpon>
@@ -261,6 +272,20 @@
     </Compile>
     <Compile Include="timkiem.aspx.designer.cs">
       <DependentUpon>timkiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="quanlynhac.aspx.cs">
+      <DependentUpon>quanlynhac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quanlynhac.aspx.designer.cs">
+      <DependentUpon>quanlynhac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chude.aspx.cs">
+      <DependentUpon>chude.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chude.aspx.designer.cs">
+      <DependentUpon>chude.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>

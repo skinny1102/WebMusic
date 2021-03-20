@@ -5,10 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <div class="menutheloai">
        <div>
-           <nav class="menulist">
+          <nav class="menulist">
                <ul>
-                   <li> <a href="#"> Nhạc Mới</a></li>
-                   <li> <a href="#">Thể Loại</a></li>
+                   <li> <a href="Nhacmoi.aspx"> Nhạc Mới</a></li>
+                   <li> <a href="theloai.aspx">Thể Loại</a></li>
                    <li> <a href="#"> Top100</a></li>
                    <li> <a href="#"> Ca sĩ</a></li>
                </ul>
@@ -18,6 +18,7 @@
                <ul>
                    <li><a href="Uploadnhac.aspx" > Đóng góp nhạc</a> </li>
                    <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
+                   <li> <a href="quanlynhac.aspx" >Quản Lý Nhạc Của Người Đăng</a></li>
                </ul>
                <% } %>
            </nav>

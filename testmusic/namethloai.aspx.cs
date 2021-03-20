@@ -32,7 +32,7 @@ namespace testmusic
                 }
                 if (so == 3)
                 {
-                    ten = "Nhạc Âu Mĩ";
+                    ten = "Nhạc Âu Mỹ";
                 }
                 if (so == 4)
                 {
@@ -64,7 +64,7 @@ namespace testmusic
                 }
                 using (SqlCommand cmd = new SqlCommand())
                 {     
-                    cmd.CommandText = " select top 20 *from tblMusic inner join chude  on tblMusic.idchude=chude.IDchude  where chude.theloai1='"+ten+ "' or  chude.theloai2='" + ten + "' or  chude.theloai3='" + ten + "'";
+                    cmd.CommandText = " select top 20 *from tblMusic inner join chude  on tblMusic.idchude=chude.IDchude  where chude.theloai1=N'"+ten+ "' or  chude.theloai2=N'" + ten + "' or  chude.theloai3=N'" + ten + "'";
                 cmd.Connection = con;
                 con.Open();
                     rpp.DataSource = cmd.ExecuteReader();
