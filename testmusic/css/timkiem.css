@@ -1,4 +1,5 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 .leftcolumn {
     background-color: #2e7ce6;
 }
@@ -41,21 +42,42 @@ ul {
             background-color: red;
         }
 
-.theloai {
+.nhamoi {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-    .theloai a {
-        color: black;
-        background-color: aqua;
-        margin: 3px;
-        border-radius: 5px;
-        padding: 5px 0 0 0;
-        width: 72%;
-        height: 35px;
-        font-size: 110%;
-        font-weight: 600;
-        text-align: center;
-    }
+.audion {
+    margin: 5px;
+}
+
+.per-r {
+    margin: 0 0 0 3px;
+}
+
+.imgg {
+    height: 100px;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+}
+
+.k22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k22 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}

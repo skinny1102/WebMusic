@@ -27,18 +27,19 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     <div>
         <h3> Thể Loại</h3>
-        <div>
-             <a href=""> Nhạc việt</a>
-            <a href=""> Nhạc hàn </a>
-            <a href=""> Nhạc Âu Mỹ</a>
-            <a href="" > Nhạc Hoa </a>
-            <a href="" >EDM </a>
-            <a href="" > Rap</a>
-            <a href="" > Indie </a>
-            <a href="" > Jazz</a>
-            <a href="" > R&B </a>
-            <a href="" > Nhạc Phim</a>
+         <div class="theloai"> 
+            <a href="namethloai.aspx?nametheloai=1" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Việt</a>
+            <a href="namethloai.aspx?nametheloai=2"> Nhạc Hàn </a>
+            <a href="namethloai.aspx?nametheloai=3" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Âu Mỹ</a>
+            <a href="namethloai.aspx?nametheloai=4" > Nhạc Hoa </a>
+            <a href="namethloai.aspx?nametheloai=5"style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%) ">EDM </a>
+            <a href="namethloai.aspx?nametheloai=6" > Rap</a>
+            <a href="namethloai.aspx?nametheloai=7" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%) "> Indie </a>
+            <a href="namethloai.aspx?nametheloai=8" > Jazz</a>
+            <a href="namethloai.aspx?nametheloai=9" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> R&B </a>
+            <a href="namethloai.aspx?nametheloai=10" > Nhạc Phim</a>
        </div>
+
         </div>
 
 

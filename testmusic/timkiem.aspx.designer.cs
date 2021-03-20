@@ -11,17 +11,8 @@ namespace testmusic
 {
 
 
-    public partial class WebForm14
+    public partial class WebForm15
     {
-
-        /// <summary>
-        /// tentheloai control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label tentheloai;
 
         /// <summary>
         /// rpp control.

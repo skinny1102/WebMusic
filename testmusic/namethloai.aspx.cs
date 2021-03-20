@@ -64,13 +64,15 @@ namespace testmusic
                 }
                 using (SqlCommand cmd = new SqlCommand())
                 {     
-                    cmd.CommandText = " select *from tblMusic inner join chude  on tblMusic.idchude=chude.IDchude  where chude.theloai1='"+ten+ "' or  chude.theloai2='" + ten + "' or  chude.theloai3='" + ten + "'";
+                    cmd.CommandText = " select top 20 *from tblMusic inner join chude  on tblMusic.idchude=chude.IDchude  where chude.theloai1='"+ten+ "' or  chude.theloai2='" + ten + "' or  chude.theloai3='" + ten + "'";
                 cmd.Connection = con;
                 con.Open();
                     rpp.DataSource = cmd.ExecuteReader();
                     rpp.DataBind();
+                    
                 con.Close();
                 }
+                tentheloai.Text = ten;
                 //using (SqlCommand cmd = new SqlCommand())
                 //{
                 //    con.Open();

@@ -102,6 +102,7 @@
     <Content Include="css\reign.css" />
     <Content Include="css\Suanhac.css" />
     <Content Include="css\theloai.css" />
+    <Content Include="css\timkiem.css" />
     <Content Include="Global.asax" />
     <Content Include="Logout.aspx" />
     <Content Include="music\index.css" />
@@ -124,6 +125,7 @@
     <Content Include="theloai.aspx" />
     <Content Include="WebForm13.aspx" />
     <Content Include="namethloai.aspx" />
+    <Content Include="timkiem.aspx" />
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -252,6 +254,13 @@
     </Compile>
     <Compile Include="namethloai.aspx.designer.cs">
       <DependentUpon>namethloai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="timkiem.aspx.cs">
+      <DependentUpon>timkiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="timkiem.aspx.designer.cs">
+      <DependentUpon>timkiem.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>

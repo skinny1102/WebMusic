@@ -22,7 +22,7 @@
                 <% if (Session["dangnhap"].ToString() != "1" ){%>
               <a href="Uploadnhac.aspx" >Upload nhạc</a>
                  <% }%>
-                <asp:TextBox runat="server" Text="Tìm Kiếm" Cssclass="search" ></asp:TextBox> <asp:Button ID="btnsearch" Cssclass="btnsearch" runat="server" Text="Tìm"/>
+                <asp:TextBox runat="server" Text="Tìm Kiếm" Cssclass="search" id="searchname" ></asp:TextBox> <asp:Button ID="btnsearch" Cssclass="btnsearch" runat="server" onclick="btnsearch_Click" Text="Tìm"/>
                 <% if (Session["dangnhap"].ToString() == "1"){%>
               <a href="Login.aspx" style="float:right">Login</a>
                  <%} if (Session["dangnhap"].ToString() != "1"){  %>

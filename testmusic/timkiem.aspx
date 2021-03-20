@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagemaster.Master" AutoEventWireup="true" CodeBehind="namethloai.aspx.cs" Inherits="testmusic.WebForm14" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagemaster.Master" AutoEventWireup="true" CodeBehind="timkiem.aspx.cs" Inherits="testmusic.WebForm15" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/nametheloai.css" rel="stylesheet" />
+    <link href="css/timkiem.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
    <div class="menutheloai">
        <div>
            <nav class="menulist">
@@ -25,8 +26,8 @@
    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
-       <div>
-              <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - <asp:Label ID="tentheloai" runat="server" Text=""></asp:Label> </h3>
+    <div>    
+    <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - Tìm Kiếm </h3>
     <div class="nhamoi">
         <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>

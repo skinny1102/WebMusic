@@ -1,40 +1,35 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
 
 namespace testmusic
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class WebForm15 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            dataload();
-        }
-
-        void dataload()
-        {
+            string search = Request.QueryString["search"];
             string strConnString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
             using (SqlConnection con = new SqlConnection(strConnString))
             {
+
                 using (SqlCommand cmd = new SqlCommand())
                 {
-                    cmd.CommandText = " SELECT top 10 *FROM tblMusic ";
+                    cmd.CommandText = " select top 20 *from tblMusic where DisplayName like N'%" + search.ToString() + "%' ";
                     cmd.Connection = con;
                     con.Open();
-                    Repeater1.DataSource = cmd.ExecuteReader();
-                    Repeater1.DataBind();
+                    rpp.DataSource = cmd.ExecuteReader();
+                    rpp.DataBind();
+
                     con.Close();
                 }
+
             }
-
-        }
-
         }
     }
+}

@@ -13,5 +13,11 @@ namespace testmusic
         {
 
         }
+
+        protected void btnsearch_Click(object sender, EventArgs e)
+        {
+            string namesearch = searchname.Text;
+            Response.Redirect("timkiem.aspx?search="+namesearch.ToString()+"");
+        }
     }
 }
