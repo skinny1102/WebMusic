@@ -45,6 +45,7 @@ ul {
         ul li a:hover {
             background-color: red;
         }
+
 .imgg {
     height: 70px;
     width: 30%;
@@ -53,4 +54,40 @@ ul {
     cursor: pointer;
     float: left;
     margin: 0 0 0 5px;
+}
+
+.danhsach {
+    margin-left: 10px;
+    display: grid;
+}
+
+.audion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 3fr 1fr 1fr;
+    width: 95%;
+}
+
+    .audion .nd {
+        height: 65px;
+        border: 1px solid black;
+    }
+
+.nd {
+    font-size: 90%;
+}
+
+.btnxx {
+    margin-top: 30px;
+    border: none;
+}
+
+.btnxemds {
+    background-color: darkgrey;
+    margin: 3px;
+    padding margin-top: 10px;
+    border-radius: 3px;
+}
+
+.btnxoa {
+    background-color: darkgrey;
 }

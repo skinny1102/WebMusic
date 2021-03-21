@@ -3,20 +3,6 @@
     <link href="music/index.css" rel="stylesheet" />
    <script type="text/javascript" >
 
-       function prev() {
-           document.getElementById('slider-container').scrollLeft -= 270;
-       }
-
-       function next() {
-           document.getElementById('slider-container').scrollLeft += 270;
-       }
-
-
-       $(".slide img").on("click", function () {
-           $(this).toggleClass('zoomed');
-           $(".overlay").toggleClass('active');
-       })
-
    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

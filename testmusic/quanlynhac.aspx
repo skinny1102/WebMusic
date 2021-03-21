@@ -27,29 +27,47 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     
     <div class="danhsach ">
-        <h3> Danh Sách Nhạc Đã Đăng Lên</h3>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
-                <ItemTemplate>
-                    <div class="audion">
-                         <p> <%# Eval("iDacc") %></p>
-                   <a href="#"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r"> Tên Bài Hát  <%# Eval("DisplayName") %> </p> 
-                        <p> <%# Eval("casi") %></p>
-                      <audio src='<%# Eval("Data") %>' controls="controls"  > </audio>
-                        <div>
-                            <a class="btnsua" href="Suanhac.aspx?idmusic=<%# Eval("iDmusic") %>"> Sửa </a>
-                            <asp:Button ID="btnxoa" runat="server" Text="Xóa" />
+        <h3> Quản lý người dùng và nhạc</h3>
+        <hr style="width:85%"/>
+        <div class="audion">
+                        <div class="btn"> 
+                           
                         </div>
-
+                        <div>
+                            <p style="font-weight:600 ; text-align:center"> ID Acount</p>
+                        </div>
+                         <div > <p style="font-weight:600 ; text-align:center">  Tên người dùng</p></div>
+                         <div><p style="font-weight:600 ; text-align:center"> Email </p></div>
+                         <div><p style="font-weight:600 ; text-align:center"> Ngày Sinh</p></div>
+                         <div>  <p style="font-weight:600 ; text-align:center"> Giới Tính</p>  </div>                                    
+                        </div>
+        <asp:Repeater runat="server" ID="rpp">
+            <ItemTemplate>
+                    <div class="audion">
+                        <div class="btn"> 
+                            <div class="btnxx">
+                             <a class="btnxemds"  style="color:black" href='dsnhacnguoidung.aspx?id=<%# Eval("IDacount") %>'>
+                                Xem DS
+                            </a>
+                             <a class="btnxoa" style="color:black" href="">
+                                Xóa
+                            </a>
+                            </a>
+                                </div>
+                        </div>
+                        <div class="nd">  <p> <%# Eval("IDacount") %></p> </div >
+                         <div class="nd">  <p>  <%# Eval("Name") %></p></div>
+                         <div class="nd"><p> <%# Eval("email")%> </p></div>
+                         <div class="nd"><p> <%# Eval("ngaysinh") %></p></div>
+                         <div class="nd">  <p> <%# Eval("gioitinh") %></p>  </div>
+                       
+                        
+                    
                         </div>
                         </ContentTemplate>         
                         </ItemTemplate>
-            </asp:TemplateField>
-
-        </Columns>
-    </asp:GridView>
+        </asp:Repeater>
+       
 
     </div>
 

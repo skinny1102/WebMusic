@@ -15,6 +15,10 @@
        <asp:TextBox ID="email" runat="server" placeholder="Email" CssClass="textbox"></asp:TextBox>
           <asp:RequiredFieldValidator runat="server" ControlToValidate="email" Text="Không được trống" ForeColor="Red"></asp:RequiredFieldValidator>
        <asp:TextBox ID="ngaysinh" runat="server" placeholder="Ngày Sinh" CssClass="textbox"></asp:TextBox>
+        <asp:RequiredFieldValidator runat="server" ControlToValidate="ngaysinh" Text="Không được trống" ForeColor="Red"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator runat="server" ControlToValidate="ngaysinh"
+    ValidationExpression="^([0-9]|0[1-9]|1[012])\/([0-9]|0[1-9]|[12][0-9]|3[01])\/(19|20)\d\d$"
+   Text="*mm/dd/yyyy"  ForeColor="Red"/>
                  <p> Giới tính</p>
                      <asp:RadioButtonList ID="gtss" runat="server">
                         <asp:ListItem Text ="Nam" Value="Nam" />

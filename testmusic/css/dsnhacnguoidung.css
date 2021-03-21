@@ -1,0 +1,96 @@
+﻿
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+audio {
+    margin: 3px 0 0 0;
+}
+
+.leftcolumn {
+    background-color: #2e7ce6;
+}
+
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menutheloai {
+    background-color: #2e7ce6;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+ul {
+}
+
+    ul li a {
+        background-color: #2e7ce6;
+        margin: 10px 10px 10px 10px;
+        display: block;
+        width: 90%;
+        height: 25px;
+    }
+
+        ul li a:hover {
+            background-color: red;
+        }
+
+.nhamoi {
+    border: 1px solid black;
+    width: 95%;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.audion {
+    margin: 10px;
+}
+
+.per-r {
+    margin: 0 0 0 3px;
+}
+
+.imgg {
+    height: 100px;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+}
+
+.k22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k22 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
