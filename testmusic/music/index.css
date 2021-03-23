@@ -24,10 +24,10 @@ ul {
     margin: 0;
     padding: 0;
 }
-li
-{
-
-    list-style:none;
+li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    list-style: none;
 }
 ul {
     

@@ -39,7 +39,7 @@ namespace testmusic
             {
                 using (SqlCommand cmd = new SqlCommand())
                 {
-                    cmd.CommandText = " select top14 *from tblMusic inner join bxh on tblMusic.iDmusic=bxh.idnhac  where  bxh.sut="+k+" ";
+                    cmd.CommandText = " select top 14 *from tblMusic inner join bxh on tblMusic.iDmusic=bxh.idnhac  where  bxh.sut="+k+" ";
                     cmd.Connection = con;
                     con.Open();
                     rpp.DataSource = cmd.ExecuteReader();

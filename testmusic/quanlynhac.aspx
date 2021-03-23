@@ -49,7 +49,7 @@
                              <a class="btnxemds"  style="color:black" href='dsnhacnguoidung.aspx?id=<%# Eval("IDacount") %>'>
                                 Xem DS
                             </a>
-                             <a class="btnxoa" style="color:black" href="">
+                             <a class="btnxoa" style="color:black" href='xoauser.aspx?iduser=<%# Eval("IDacount") %>'>
                                 Xóa
                             </a>
                             </a>

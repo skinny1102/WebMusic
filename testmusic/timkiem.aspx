@@ -32,6 +32,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     <div>    
     <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - Tìm Kiếm </h3>
+        <hr  style="width:85%"/>
     <div class="nhamoi">
         <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>

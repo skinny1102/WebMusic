@@ -135,6 +135,8 @@
     <Content Include="quanlynhac.aspx" />
     <Content Include="chude.aspx" />
     <Content Include="dsnhacnguoidung.aspx" />
+    <Content Include="xoanhac.aspx" />
+    <Content Include="xoauser.aspx" />
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +300,20 @@
     </Compile>
     <Compile Include="dsnhacnguoidung.aspx.designer.cs">
       <DependentUpon>dsnhacnguoidung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xoanhac.aspx.cs">
+      <DependentUpon>xoanhac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xoanhac.aspx.designer.cs">
+      <DependentUpon>xoanhac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xoauser.aspx.cs">
+      <DependentUpon>xoauser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xoauser.aspx.designer.cs">
+      <DependentUpon>xoauser.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>

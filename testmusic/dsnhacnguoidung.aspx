@@ -40,8 +40,12 @@
                 <ItemTemplate>
                     <div class="audion">
                    <a href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>               
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a>
+                       </br> <%# Eval("casi") %></p>              
                         </div>
+                    <div >
+                            <a style="color:black" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
+                    </div>
                         </ContentTemplate>         
                         </ItemTemplate>      
             </asp:Repeater>

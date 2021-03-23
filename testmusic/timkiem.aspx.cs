@@ -20,12 +20,13 @@ namespace testmusic
 
                 using (SqlCommand cmd = new SqlCommand())
                 {
-                    cmd.CommandText = " select top 20 *from tblMusic where DisplayName like N'%" + search.ToString() + "%' ";
                     cmd.Connection = con;
-                    con.Open();
+                    con.Open(); 
+                    cmd.CommandType= System.Data.CommandType.StoredProcedure;
+                    cmd.CommandText = "timkiem";
+                    cmd.Parameters.AddWithValue("@name", search.ToString());
                     rpp.DataSource = cmd.ExecuteReader();
                     rpp.DataBind();
-
                     con.Close();
                 }
 
