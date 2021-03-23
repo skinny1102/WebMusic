@@ -33,26 +33,59 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     <div class="danhsach ">
         <h3> Danh Sách Nhạc Đã Đăng Lên</h3>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None">
-        <Columns>
-            <asp:TemplateField>
-                <ItemTemplate>
-                    <div class="audion">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="bang" BorderStyle="None" BackColor="White">
+        <Columns > 
+            <asp:TemplateField headertext="Hình ảnh">
+                <ItemTemplate  >
+                    <div class="hinhanh">
                    <a href="#"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r">  <%# Eval("DisplayName") %> </br> <%# Eval("casi") %></p>
-                      <audio src='<%# Eval("Data") %>' controls="controls"  > </audio>
-                        <p> <%# Eval("Cotenttype") %> </p>
-                        <div>
-                            <a class="btnsua" href="Suanhac.aspx?idmusic=<%# Eval("iDmusic") %>"> Sửa </a>
-                            <asp:Button ID="btnxoa" runat="server" Text="Xóa" />
                         </div>
-
+                              
+                  </ItemTemplate>           
+            </asp:TemplateField>
+            <asp:TemplateField  headertext="Tên Bài Hát">
+                  <ItemTemplate>
+                    <div class="casi">    
+                     <p class="per-r"><%# Eval("DisplayName") %></p>                        
                         </div>
+                        </ContentTemplate>         
+                        </ItemTemplate>
+            </asp:TemplateField>
+              <asp:TemplateField  headertext="Người Sáng Tác">
+                  <ItemTemplate>
+                    <div class="casi">    
+                     <p class="per-r"><%# Eval("casi") %></p>                        
+                        </div>
+                        </ContentTemplate>         
+                        </ItemTemplate>
+            </asp:TemplateField>
+              <asp:TemplateField  headertext="Âm Thanh">
+                  <ItemTemplate>
+                    <div class="audion1">    
+                      <audio src='<%# Eval("Data") %>' controls="controls"  > </audio>                    
+                        </div>
+                        </ContentTemplate>         
+                        </ItemTemplate>
+            </asp:TemplateField>
+            <asp:TemplateField  headertext="Nội Dung">
+                  <ItemTemplate>
+                    <div class="nd">    
+                      <p> <%# Eval("Cotenttype").ToString().Replace("\n", "<br />") %> </p>                 
+                        </div>
+                        </ContentTemplate>         
+                        </ItemTemplate>
+            </asp:TemplateField>
+                 <asp:TemplateField  headertext="Chức Năng">
+                  <ItemTemplate>
+                   <a href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>'> Sửa</a>
+                      <asp:Button runat="server" Text="Xóa"/>
                         </ContentTemplate>         
                         </ItemTemplate>
             </asp:TemplateField>
 
         </Columns>
+                
+            
     </asp:GridView>
 
     </div>

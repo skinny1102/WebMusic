@@ -29,17 +29,18 @@
     <div class="danhsach ">
         <h3> Quản lý người dùng và nhạc</h3>
         <hr style="width:85%"/>
+        <h3 style="text-align:center"> Danh Sách Người dùng</h3>
         <div class="audion">
                         <div class="btn"> 
-                           
+                           Chức năng
                         </div>
-                        <div>
-                            <p style="font-weight:600 ; text-align:center"> ID Acount</p>
+                        <div class="yua">
+                            <p style="font-weight:600 ; text-align:center" > ID Acount</p>
                         </div>
-                         <div > <p style="font-weight:600 ; text-align:center">  Tên người dùng</p></div>
-                         <div><p style="font-weight:600 ; text-align:center"> Email </p></div>
-                         <div><p style="font-weight:600 ; text-align:center"> Ngày Sinh</p></div>
-                         <div>  <p style="font-weight:600 ; text-align:center"> Giới Tính</p>  </div>                                    
+                         <div  class="yua"> <p style="font-weight:600 ; text-align:center">  Tên người dùng</p></div>
+                         <div class="yua"><p style="font-weight:600 ; text-align:center"> Email </p></div>
+                         <div class="yua"><p style="font-weight:600 ; text-align:center"> Ngày Sinh</p></div>
+                         <div class="yua">  <p style="font-weight:600 ; text-align:center"> Giới Tính</p>  </div>                                    
                         </div>
         <asp:Repeater runat="server" ID="rpp">
             <ItemTemplate>

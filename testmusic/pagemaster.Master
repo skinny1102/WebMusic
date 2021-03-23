@@ -18,7 +18,7 @@
               <h2>Banner</h2>
             </div>
             <div class="topnav">
-              <a href="index.aspx">Trang Chủ</a>
+              <a class="ids"  href="index.aspx">Trang Chủ</a>
                 <% if (Session["dangnhap"].ToString() != "1" ){%>
               <a href="Uploadnhac.aspx" >Upload nhạc</a>
                  <% }%>

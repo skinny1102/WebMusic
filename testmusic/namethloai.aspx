@@ -32,6 +32,7 @@
        <div>
               <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - <asp:Label ID="tentheloai" runat="server" Text=""></asp:Label> </h3>
           <hr  style="width:85%"/>
+           <h3 style="margin-left:100px"> Danh Sách Nhạc Thể Loại <asp:Label ID="Label1" runat="server" Text=""></asp:Label></h3>
     <div class="nhamoi">
         <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>

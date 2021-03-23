@@ -73,6 +73,7 @@ namespace testmusic
                 con.Close();
                 }
                 tentheloai.Text = ten;
+                Label1.Text = ten;
                 //using (SqlCommand cmd = new SqlCommand())
                 //{
                 //    con.Open();
