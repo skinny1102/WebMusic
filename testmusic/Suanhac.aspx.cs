@@ -52,9 +52,9 @@ namespace testmusic
                     cmd.Parameters.AddWithValue("@namecasi", txtcasi.Text);
                     cmd.Parameters.AddWithValue("@content", txtcontent.Text);
                     cmd.Parameters.AddWithValue("@idnhac", idmusic);
-                    using (SqlDataReader re = cmd.ExecuteReader())
+                    int i =cmd.ExecuteNonQuery();
                     {
-                        if (re.HasRows == true)
+                        if (i >0)
                         {
                             Label1.Text = "Thay Đổi Thành Công";
                          

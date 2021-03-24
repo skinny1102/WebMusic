@@ -102,6 +102,7 @@
     <Content Include="css\hienthinhac.css" />
     <Content Include="css\nametheloai.css" />
     <Content Include="css\nhacmoi.css" />
+    <Content Include="css\nhactamtrang.css" />
     <Content Include="css\nhacvp1.css" />
     <Content Include="css\quanlynhac.css" />
     <Content Include="css\reign.css" />
@@ -135,6 +136,7 @@
     <Content Include="quanlynhac.aspx" />
     <Content Include="chude.aspx" />
     <Content Include="dsnhacnguoidung.aspx" />
+    <Content Include="nhactamtrang.aspx" />
     <Content Include="xoanhac.aspx" />
     <Content Include="xoauser.aspx" />
     <Content Include="WebUserControl1.ascx" />
@@ -300,6 +302,13 @@
     </Compile>
     <Compile Include="dsnhacnguoidung.aspx.designer.cs">
       <DependentUpon>dsnhacnguoidung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nhactamtrang.aspx.cs">
+      <DependentUpon>nhactamtrang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nhactamtrang.aspx.designer.cs">
+      <DependentUpon>nhactamtrang.aspx</DependentUpon>
     </Compile>
     <Compile Include="xoanhac.aspx.cs">
       <DependentUpon>xoanhac.aspx</DependentUpon>

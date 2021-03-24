@@ -37,7 +37,6 @@
  
     <div class="banner">
 
-
     </div>
          <div class="box-list" > 
                    <div class="box-list1" >
@@ -66,7 +65,8 @@
                 <ItemTemplate>
                     <div class="audion">
                    <a class="ahhh" href="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
-                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">   <%# Eval("DisplayName") %> </a></br> <%# Eval("casi") %></p>               
+                     <p class="per-r"> <a  class="title"    href ="hienthinhac.aspx?idmusic=<%# Eval("iDmusic") %>">  <span style="font-weight:600">  <%# Eval("DisplayName") %> </span> </a> 
+                        </br> <span style="font-size:14px"><%# Eval("casi") %> </span></p>               
                         </div>
                         </ContentTemplate>         
                         </ItemTemplate>      
@@ -91,13 +91,11 @@
 
  
     <h3> Hôm Nay Nghe Gì</h3>
-   <div class="k11">
-         
-      <div> <a href="#">  <img class="img-k11" src="/image/877eb506f1c9cb315ebb307c9db12b40.jpg" /> Top gì đó</a> </div>
-         <div> <a href="#">  <img class="img-k11" src="/image/3b9a2890dd6262033a56614bcf22c227.jpg" /></a> </div>
-          <div> <a href="#">  <img class="img-k11" src="/image/25ba89a65c8067be5be34166f045b99e.jpg" /></a> </div>
-         <div> <a href="#">  <img class="img-k11" src="/image/3eaa1bb8b1750cf10c39d568cc061c8e.jpg" /></a> </div>
-
+   <div class="k11">        
+      <div> <a href="nhactamtrang.aspx?idtt=1">  <img class="img-k11" src="/image/877eb506f1c9cb315ebb307c9db12b40.jpg" /> </a> </div>
+         <div> <a href="nhactamtrang.aspx?idtt=2">  <img class="img-k11" src="/image/3b9a2890dd6262033a56614bcf22c227.jpg" /></a> </div>
+          <div> <a href="nhactamtrang.aspx?idtt=3">  <img class="img-k11" src="/image/25ba89a65c8067be5be34166f045b99e.jpg" /></a> </div>
+         <div> <a href="nhactamtrang.aspx?idtt=4">  <img class="img-k11" src="/image/3eaa1bb8b1750cf10c39d568cc061c8e.jpg" /></a> </div>
    </div>
     <h3> Tâm Trạng Và Hoạt Động</h3>
     <div class="k22">

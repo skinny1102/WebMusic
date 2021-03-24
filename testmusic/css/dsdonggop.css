@@ -70,7 +70,7 @@ ul {
 .casi
 {
     text-align:center;
-    width:30px;
+    width:100%;
 }
 .per-r
 {
@@ -88,9 +88,8 @@ ul {
     width:95%;
     margin-left:30px;
 }
-.audion1
-{
-    width:100px;
+.audion1 {
+    width: 120px;
 }
 audio {
     width: 200px;

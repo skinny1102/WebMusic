@@ -29,6 +29,12 @@ namespace testmusic
                 Label1.Text = "Không được để trống";
                 return;
             }
+            else if( arrListStr.Length == 2)
+            {
+                Label1.Text = "Hãy chọn 2 thể âm nhạc trở lên";
+                return;
+
+            }
             else
             {
                 string strConnString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;

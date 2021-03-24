@@ -27,7 +27,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #2e7ce6;
+    background-color: #3D8BD0;
 }
 
 
@@ -91,11 +91,14 @@ body {
 
     padding-left:20px;
 }
+.rightcolumn {
+   /* background-color: #0C5DA5;*/
+}
 .footer {
     padding: 20px;
     text-align: center;
     color: white;
-    background: #333;
-    margin-top: 20px;
+    background: #FFAF3D;
+    /*margin-top: 20px;*/
 }
   

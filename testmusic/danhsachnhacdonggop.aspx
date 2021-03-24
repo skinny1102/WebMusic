@@ -77,7 +77,7 @@
             </asp:TemplateField>
                  <asp:TemplateField  headertext="Chức Năng">
                   <ItemTemplate>
-                   <a href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>'> Sửa</a>
+                   <a href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>' style="color:black"> Sửa</a>
                       <asp:Button runat="server" Text="Xóa"/>
                         </ContentTemplate>         
                         </ItemTemplate>
