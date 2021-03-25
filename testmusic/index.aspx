@@ -24,7 +24,8 @@
                    <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
                     <% if (Session["dangnhap"].ToString() == "admin")
                    {%>
-                   <li> <a href="quanlynhac.aspx" >Quản Lý Nhạc Của Người Đăng</a></li>
+                   <li> <a href="quanlynhac.aspx" >Quản Lý Người Dùng</a></li>
+                   <li> <a href="QuanLybaiha.aspx" >Quản Lý Bài Hát Hiển Thị</a></li>
                    <% } %>
                </ul>
                <% } %>
@@ -97,13 +98,18 @@
           <div> <a href="nhactamtrang.aspx?idtt=3">  <img class="img-k11" src="/image/25ba89a65c8067be5be34166f045b99e.jpg" /></a> </div>
          <div> <a href="nhactamtrang.aspx?idtt=4">  <img class="img-k11" src="/image/3eaa1bb8b1750cf10c39d568cc061c8e.jpg" /></a> </div>
    </div>
-    <h3> Tâm Trạng Và Hoạt Động</h3>
-    <div class="k22">
-      <div> <a href="#">  <img class="img-k22" src="/image/92d59a48d9df9e94275b30a0718d5121.jpg" /> Top gì đó</a> </div>
-         <div> <a href="#">  <img class="img-k22" src="/image/b32dab34664c9a7f0d1f837b4babd4bb.jpg" /></a> </div>
-          <div> <a href="#">  <img class="img-k22" src="/image/4fda0068d6821c35e89a6d405b314ba0.jpg" /></a> </div>
-         <div> <a href="#">  <img class="img-k22" src="/image/d0714f6cfd28af5d7518d582285f3312.jpg" /></a> </div>
-        <div> <a href="#">  <img class="img-k22" src="/image/1a99f9d8d8c5563e3893d9f10cd8689a.jpg" /></a> </div>
+        <h3> Hôm Nay Nghe Gì</h3>
+   <div class="k22">        
+      <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=1" style="color:black;text-align:center">  <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" /> <p> Những bài hát hay nhất của Bích Phương </p>  </a> 
+          </div>
+         <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=2"  style="color:black;text-align:center">  <img class="img-k22" src="/image/123.jpg" />  <p> Những bài hát hay nhất của Đen Vâu </p> </a> 
+          </div>
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=3"  style="color:black;text-align:center"> <img class="img-k22" src="/image/1333.jpg" /> <p> Những bài hát hay nhất của Vũ. </p>  </a> 
+           </div>
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=4" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+          </div>
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=5" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+          </div>
    </div>
 
 </asp:Content>

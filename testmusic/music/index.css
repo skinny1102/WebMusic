@@ -148,6 +148,16 @@ th , tr , td
     width: 97%;
     height: auto;
     margin: 1px;
+    object-fit: cover;
+}
+.aaaa2
+{
+    margin-bottom:5px;
+}
+.aaaa2:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    border-radius: 3px;
 }
 .title
 {

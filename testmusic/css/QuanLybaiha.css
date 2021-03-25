@@ -1,0 +1,49 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+audio {
+    margin: 3px 0 0 0;
+}
+
+.leftcolumn {
+    background-color: #3D8BD0;
+}
+
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menutheloai {
+    background-color: #3D8BD0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+ul {
+}
+
+    ul li a {
+        /* margin: 10px 10px 10px 10px ;*/
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 10px 0 0 20px;
+    }
+
+        ul li a:hover {
+            background-color: red;

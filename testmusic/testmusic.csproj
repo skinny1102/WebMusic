@@ -104,6 +104,8 @@
     <Content Include="css\nhacmoi.css" />
     <Content Include="css\nhactamtrang.css" />
     <Content Include="css\nhacvp1.css" />
+    <Content Include="css\nhungbaihatcua.css" />
+    <Content Include="css\QuanLybaiha.css" />
     <Content Include="css\quanlynhac.css" />
     <Content Include="css\reign.css" />
     <Content Include="css\Suanhac.css" />
@@ -137,6 +139,8 @@
     <Content Include="chude.aspx" />
     <Content Include="dsnhacnguoidung.aspx" />
     <Content Include="nhactamtrang.aspx" />
+    <Content Include="QuanLybaiha.aspx" />
+    <Content Include="nhungbaihatcua.aspx" />
     <Content Include="xoanhac.aspx" />
     <Content Include="xoauser.aspx" />
     <Content Include="WebUserControl1.ascx" />
@@ -309,6 +313,20 @@
     </Compile>
     <Compile Include="nhactamtrang.aspx.designer.cs">
       <DependentUpon>nhactamtrang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLybaiha.aspx.cs">
+      <DependentUpon>QuanLybaiha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanLybaiha.aspx.designer.cs">
+      <DependentUpon>QuanLybaiha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nhungbaihatcua.aspx.cs">
+      <DependentUpon>nhungbaihatcua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nhungbaihatcua.aspx.designer.cs">
+      <DependentUpon>nhungbaihatcua.aspx</DependentUpon>
     </Compile>
     <Compile Include="xoanhac.aspx.cs">
       <DependentUpon>xoanhac.aspx</DependentUpon>
