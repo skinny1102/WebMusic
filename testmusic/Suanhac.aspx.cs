@@ -39,34 +39,47 @@ namespace testmusic
         {
             int idmusic = Convert.ToInt32(Request.QueryString["iDmusic"]);
             string strConnString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
-            
-            using (SqlConnection con = new SqlConnection(strConnString))
-            {
-                using (SqlCommand cmd = new SqlCommand())
-                {
-                    con.Open();
-                    cmd.Connection = con;
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.CommandText = "updatenhac";
-                    cmd.Parameters.AddWithValue("@namenhac", Tennhac.Text);
-                    cmd.Parameters.AddWithValue("@namecasi", txtcasi.Text);
-                    cmd.Parameters.AddWithValue("@content", txtcontent.Text);
-                    cmd.Parameters.AddWithValue("@idnhac", idmusic);
-                    int i =cmd.ExecuteNonQuery();
-                    {
-                        if (i >0)
-                        {
-                            Label1.Text = "Thay Đổi Thành Công";
-                         
-                        }
-                        else
-                        {
-                            Label1.Text = "Thay Đổi  Không Thành Công";
-                        }
-                    }
+            string tennhac = Tennhac.Text;
+            string casi = txtcasi.Text;
+            string content = txtcontent.Text;
+            if (tennhac == "" || casi =="" || content=="")
 
+            {
+                Label1.Text = "*Thay Đổi  Không Thành Công";
+            }
+            else
+            {
+
+             
+            using (SqlConnection con = new SqlConnection(strConnString))
+                {
+                    using (SqlCommand cmd = new SqlCommand())
+                    {
+                        con.Open();
+                        cmd.Connection = con;
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.CommandText = "updatenhac";
+                        cmd.Parameters.AddWithValue("@namenhac", tennhac);
+                        cmd.Parameters.AddWithValue("@namecasi", casi);
+                        cmd.Parameters.AddWithValue("@content", content);
+                        cmd.Parameters.AddWithValue("@idnhac", idmusic);
+                        int i = cmd.ExecuteNonQuery();
+                        {
+                            if (i > 0)
+                            {
+                                Label1.Text = "Thay Đổi Thành Công";
+
+                            }
+                            else
+                            {
+                                Label1.Text = "*Thay Đổi  Không Thành Công";
+                            }
+                        }
+
+                    }
                 }
             }
+
 
         }
     }

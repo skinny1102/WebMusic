@@ -29,7 +29,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     
     <div class="form-fileup"> 
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
         <h2>Thay Đổi Nội Dung</h2>
         <asp:Repeater runat="server" ID="rpp" OnItemCommand="rpp_ItemCommand">
             <ItemTemplate>
