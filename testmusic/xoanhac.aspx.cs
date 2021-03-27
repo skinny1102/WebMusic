@@ -47,5 +47,10 @@ namespace testmusic
                 }
             }
         }
+
+        protected void btnkhong_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("quanlynhac.aspx");
+        }
     }
 }

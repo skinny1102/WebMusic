@@ -13,6 +13,9 @@
         
     <asp:RequiredFieldValidator runat="server" ControlToValidate="Name" Text="Không được trống" ForeColor="Red"></asp:RequiredFieldValidator>
        <asp:TextBox ID="email" runat="server" placeholder="Email" CssClass="textbox"></asp:TextBox>
+           <asp:RegularExpressionValidator runat="server" ControlToValidate="email"
+    ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+   Text="* Không đúng định dạng email"  ForeColor="Red"/>
           <asp:RequiredFieldValidator runat="server" ControlToValidate="email" Text="Không được trống" ForeColor="Red"></asp:RequiredFieldValidator>
        <asp:TextBox ID="ngaysinh" runat="server" placeholder="Ngày Sinh" CssClass="textbox"></asp:TextBox>
         <asp:RequiredFieldValidator runat="server" ControlToValidate="ngaysinh" Text="Không được trống" ForeColor="Red"></asp:RequiredFieldValidator>

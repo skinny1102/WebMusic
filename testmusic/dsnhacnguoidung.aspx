@@ -45,7 +45,7 @@
                        </br> <%# Eval("casi") %></p>              
                         </div>
                     <div >
-                            <a style="color:black ; border:1px solid black" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
+                            <a class="btnxoa" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
                     </div>
                     </div>
                         </ContentTemplate>         

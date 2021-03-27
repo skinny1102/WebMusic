@@ -47,10 +47,10 @@
                     <div class="audion">
                         <div class="btn"> 
                             <div class="btnxx">
-                             <a class="btnxemds"  style="color:black" href='dsnhacnguoidung.aspx?id=<%# Eval("IDacount") %>'>
+                             <a class="btnxemds"  style="color:white" href='dsnhacnguoidung.aspx?id=<%# Eval("IDacount") %>'>
                                 Xem DS
                             </a>
-                             <a class="btnxoa" style="color:black" href='xoauser.aspx?iduser=<%# Eval("IDacount") %>'>
+                             <a class="btnxoa" style="color:white" href='xoauser.aspx?iduser=<%# Eval("IDacount") %>'>
                                 Xóa
                             </a>
                             </a>

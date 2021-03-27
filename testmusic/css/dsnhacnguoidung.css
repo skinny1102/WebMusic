@@ -82,6 +82,11 @@ ul {
     color: black;
     font-weight: 600;
 }
+.btnxoa {
+    color: white;
+    background-color: #4CAF50;
+    padding:5px;
+}
 
 .k22 {
     display: grid;

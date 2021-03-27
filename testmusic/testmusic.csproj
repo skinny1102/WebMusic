@@ -111,6 +111,7 @@
     <Content Include="css\Suanhac.css" />
     <Content Include="css\theloai.css" />
     <Content Include="css\timkiem.css" />
+    <Content Include="css\xoanhacuser.css" />
     <Content Include="Global.asax" />
     <Content Include="Logout.aspx" />
     <Content Include="music\index.css" />
