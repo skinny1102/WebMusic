@@ -26,7 +26,10 @@
                 <% if (Session["dangnhap"].ToString() == "1"){%>
               <a href="Login.aspx" style="float:right">Login</a>
                  <%} if (Session["dangnhap"].ToString() != "1"){  %>
+                <div style="float:right ; display:grid ; grid-template-columns:4fr 1fr">
+                <p style="color:white; text-align:right; margin-top:10px "> Xin chào tài khoản : <asp:Label runat="server" ID="lb1"></asp:Label> </p>
                   <a href="Logout.aspx" style="float:right" >Logout</a>  
+                    </div>
                 <% }%>
             </div>
 

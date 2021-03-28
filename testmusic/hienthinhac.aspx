@@ -22,6 +22,7 @@
                        <% if (Session["dangnhap"].ToString() == "admin")
                    {%>
                    <li> <a href="quanlynhac.aspx" >Quản Lý Nhạc Của Người Đăng</a></li>
+                      <li> <a href="QuanLybaiha.aspx" >Quản Lý Bài Hát Hiển Thị</a></li>
                    <% } %>
                </ul>
                <% } %>

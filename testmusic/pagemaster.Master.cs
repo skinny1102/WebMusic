@@ -11,7 +11,7 @@ namespace testmusic
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lb1.Text = Session["dangnhap"].ToString();
         }
 
         protected void btnsearch_Click(object sender, EventArgs e)
