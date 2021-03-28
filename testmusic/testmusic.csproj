@@ -130,7 +130,6 @@
     <Content Include="hienthinhac.aspx" />
     <Content Include="Suanhac.aspx" />
     <Content Include="nhacvp1.aspx" />
-    <Content Include="nhacvp2.aspx" />
     <Content Include="Nhacmoi.aspx" />
     <Content Include="theloai.aspx" />
     <Content Include="WebForm13.aspx" />
@@ -244,13 +243,6 @@
     </Compile>
     <Compile Include="nhacvp1.aspx.designer.cs">
       <DependentUpon>nhacvp1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="nhacvp2.aspx.cs">
-      <DependentUpon>nhacvp2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="nhacvp2.aspx.designer.cs">
-      <DependentUpon>nhacvp2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Nhacmoi.aspx.cs">
       <DependentUpon>Nhacmoi.aspx</DependentUpon>

@@ -43,7 +43,6 @@
                     <div class="hinhanh">
                    <a href="#"> <image class="imgg" src=" <%# Eval ("Image") %>"></image></a>
                         </div>
-                              
                   </ItemTemplate>           
             </asp:TemplateField>
             <asp:TemplateField  headertext="Tên Bài Hát">
@@ -81,7 +80,7 @@
                  <asp:TemplateField  headertext="Chức Năng">
                   <ItemTemplate>
                    <a href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>' class="btnsua"> Sửa</a>
-                      <asp:Button runat="server" Text="Xóa" CssClass="btnxoa"/>
+                     <a class="btnxoa" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
                         </ContentTemplate>         
                         </ItemTemplate>
             </asp:TemplateField>

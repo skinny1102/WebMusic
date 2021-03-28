@@ -50,7 +50,15 @@ namespace testmusic
 
         protected void btnkhong_Click(object sender, EventArgs e)
         {
+            if(Session["dangnhap"].ToString() == "admin")
+            { 
             Response.Redirect("quanlynhac.aspx");
+            }
+            else if (Session["dangnhap"].ToString() != "admin")
+            {
+
+                Response.Redirect("danhsachnhacdonggop.aspx");
+            }
         }
     }
 }
