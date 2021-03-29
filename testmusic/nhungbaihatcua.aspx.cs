@@ -41,11 +41,13 @@ namespace testmusic
                 }
                 if (so == 4)
                 {
-                    k = "";
+                    k = "Hoàng Dũng";
+                    imgg.Text += "<img class='imgwward' src='/image/a9ts.jpg' />";
                 }
                 if (so == 5)
                 {
-                    k = "";
+                    k = "Đức Phúc";
+                    imgg.Text += "<img class='af901b4457bbf85a9e7e6754bdb71c44.jpg' />";
                 }
                 using (SqlCommand cmd = new SqlCommand())
                 {

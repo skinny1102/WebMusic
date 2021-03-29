@@ -17,7 +17,7 @@
         <br />
         <asp:RequiredFieldValidator ID="hinhanh" runat="server" ControlToValidate="Fileupload2" Text="Trống" ForeColor="Red" ></asp:RequiredFieldValidator>
           <br />
-          <asp:RegularExpressionValidator ControlToValidate="Fileupload" ValidationExpression="^.*\.(jpg|JPG|PNG|png)$" runat="server" Text="Chỉ Nhận File Hình Ảnh" ForeColor="Red" />
+          <asp:RegularExpressionValidator ControlToValidate="Fileupload2" ValidationExpression="^.*\.(jpg|JPG|PNG|png)$" runat="server" Text="Chỉ Nhận File Hình Ảnh" ForeColor="Red" />
                                                   <hr />
                                                  <p> Tên Âm Thanh :</p>
                                                 <asp:TextBox ID="txtTennhac" runat="server" CssClass="txtname" > </asp:TextBox>

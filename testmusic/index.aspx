@@ -14,7 +14,18 @@
                    <li> <a href="Nhacmoi.aspx"> Nhạc Mới</a></li>
                    <li> <a href="theloai.aspx">Thể Loại</a></li>
                    <li> <a href="#"> Top100</a></li>
-                   <li> <a href="#"> Ca sĩ</a></li>
+                   <li class="chinh"> <a href="#"> Ca sĩ</a>
+                       <ul class="listmenu">
+                           <li> <a href="nhungbaihatcua.aspx?namecasi=2"> Đen Vâu </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=1"> Bích Phương </a></li>
+                             <li> <a href="nhungbaihatcua.aspx?namecasi=3">Vũ. </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=4"> Hoàng Dũng</a></li>
+                             <li> <a href="nhungbaihatcua.aspx?namecasi=5"> Min </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=6">  Đức Phúc</a></li>
+                       </ul>
+
+
+                   </li>
                </ul>
                <hr style="width:85%" />
                <% if (Session["dangnhap"].ToString() != "1")
@@ -106,9 +117,9 @@
           </div>
        <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=3"  style="color:black;text-align:center"> <img class="img-k22" src="/image/1333.jpg" /> <p> Những bài hát hay nhất của Vũ. </p>  </a> 
            </div>
-       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=4" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=4" style="color:black;text-align:center">   <img class="img-k22" src="/image/a9ts.jpg" />  <p> Những bài hát hay nhất của Hoàng Dũng </p> </a> 
           </div>
-       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=5" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=5" style="color:black;text-align:center">   <img class="img-k22" src="/image/af901b4457bbf85a9e7e6754bdb71c44.jpg" />  <p> Những bài hát hay nhất của Đức Phúc </p> </a> 
           </div>
    </div>
 

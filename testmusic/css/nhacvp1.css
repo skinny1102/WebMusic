@@ -48,6 +48,17 @@ ul {
         ul li a:hover {
             background-color: red;
         }
+.menulist ul li ul {
+    display: none; /**/ /**/ /*thêm*/
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+    background-color: brown;
+}
+
+.menulist ul li:hover ul {
+    display: block;
+}
 .chiacot
 {
     display:grid;

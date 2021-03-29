@@ -28,6 +28,7 @@ li {
     margin-top: 10px;
     margin-bottom: 25px;
     list-style: none;
+    position: relative;
 }
 ul {
     
@@ -41,6 +42,16 @@ ul li a {
     }
 ul li a:hover {
    background-color:red;
+}
+.menulist ul li ul {
+    display: none;/**//**/ /*thêm*/
+    position: relative;
+    top:-10px;
+  margin-left:5px;
+    background-color:brown;
+}
+.menulist ul li:hover ul {
+    display: block;
 }
 .box-list {
     margin-top: 20px;

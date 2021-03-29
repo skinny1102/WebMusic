@@ -18,7 +18,10 @@
                <ul>
                    <li><a href="Uploadnhac.aspx" > Đóng góp nhạc</a> </li>
                    <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
+                   <% if (Session["dangnhap"].ToString() == "admmin")
+                       {%>
                    <li> <a href="quanlynhac.aspx" >Quản Lý Nhạc Của Người Đăng</a></li>
+                   <%} %>
                </ul>
                <% } %>
            </nav>
