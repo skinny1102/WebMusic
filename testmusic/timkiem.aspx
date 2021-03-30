@@ -33,6 +33,7 @@
     <div>    
     <h3 style="margin-left:10px" > <a href="index.aspx" style="color:black"> Trang chủ </a> - Tìm Kiếm </h3>
         <hr  style="width:85%"/>
+        <h3  style="margin-left:20px"> Kết quả tìm kiếm cho : <asp:Label runat="server" ID="lb22"></asp:Label></h3>
     <div class="nhamoi">
         <asp:Repeater ID="rpp" runat="server"  >        
                 <ItemTemplate>

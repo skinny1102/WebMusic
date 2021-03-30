@@ -29,7 +29,7 @@ namespace testmusic
                     rpp.DataBind();
                     con.Close();
                 }
-
+                lb22.Text = search.ToString();
             }
         }
     }

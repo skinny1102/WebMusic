@@ -22,6 +22,7 @@
                            <li><a href="nhungbaihatcua.aspx?namecasi=4"> Hoàng Dũng</a></li>
                              <li> <a href="nhungbaihatcua.aspx?namecasi=5"> Min </a></li>
                            <li><a href="nhungbaihatcua.aspx?namecasi=6">  Đức Phúc</a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=7">  Trịnh Công Sơn</a></li>
                        </ul>
 
 

@@ -49,6 +49,16 @@ namespace testmusic
                     k = "Đức Phúc";
                     imgg.Text += "<img class='imgwward' src='/image/af901b4457bbf85a9e7e6754bdb71c44.jpg'/>";
                 }
+                if (so == 6)
+                {
+                    k = "Min";
+                    imgg.Text += "<img class='imgwward' src='/image/af901b4457bbf85a9e7e6754bdb71c44.jpg'/>";
+                }
+                if (so == 7)
+                {
+                    k = "Trịnh Công Sơn";
+                    imgg.Text += "<img class='imgwward' src='/image/trinh_cong_son_bai_hat.jpg'/>";
+                }
                 using (SqlCommand cmd = new SqlCommand())
                 {
                     cmd.CommandText = " select top 20 *from tblMusic  where casi=N'"+k+"'";
