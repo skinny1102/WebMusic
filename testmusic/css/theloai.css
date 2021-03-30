@@ -49,7 +49,16 @@ ul {
             background-color: red;
         }
 
-.theloai {
+.menulist ul li ul {
+    display: none; /**/ /**/ /*thêm*/
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+    background-color: brown;
+}
+
+.menulist ul li:hover ul {
+    .theloai {
 }
 
 .nhamoi {

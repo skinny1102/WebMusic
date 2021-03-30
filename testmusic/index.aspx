@@ -24,8 +24,6 @@
                            <li><a href="nhungbaihatcua.aspx?namecasi=6">  Đức Phúc</a></li>
                            <li><a href="nhungbaihatcua.aspx?namecasi=7">  Trịnh Công Sơn</a></li>
                        </ul>
-
-
                    </li>
                </ul>
                <hr style="width:85%" />

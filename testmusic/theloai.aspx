@@ -10,7 +10,17 @@
                    <li> <a href="Nhacmoi.aspx"> Nhạc Mới</a></li>
                    <li> <a href="theloai.aspx">Thể Loại</a></li>
                    <li> <a href="#"> Top100</a></li>
-                   <li> <a href="#"> Ca sĩ</a></li>
+                   <li> <a href="#"> Ca sĩ</a>
+                           <ul class="listmenu">
+                           <li> <a href="nhungbaihatcua.aspx?namecasi=2"> Đen Vâu </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=1"> Bích Phương </a></li>
+                             <li> <a href="nhungbaihatcua.aspx?namecasi=3">Vũ. </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=4"> Hoàng Dũng</a></li>
+                             <li> <a href="nhungbaihatcua.aspx?namecasi=5"> Min </a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=6">  Đức Phúc</a></li>
+                           <li><a href="nhungbaihatcua.aspx?namecasi=7">  Trịnh Công Sơn</a></li>
+                       </ul>
+                   </li>
                </ul>
                <hr style="width:85%" />
                <% if (Session["dangnhap"].ToString() != "1")
