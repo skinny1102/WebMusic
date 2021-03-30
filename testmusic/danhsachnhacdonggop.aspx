@@ -29,8 +29,8 @@
                    <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
                    <% if (Session["dangnhap"].ToString() == "admin")
                    {%>
-                   <li> <a href="quanlynhac.aspx" >Quản Lý Người Dùn/a></li>
-                   <li> <a href="QuanLybaiha.aspx" >Quản Lý Bài Hát Hiển Thị</a></li>
+                   <li> <a href="quanlynhac.aspx" >Quản Lý Người Dùng</a></li>
+                  <%-- <li> <a href="QuanLybaiha.aspx" >Quản Lý Bài Hát Hiển Thị</a></li>--%>
                    <% } %>
                </ul>
                <% } %>

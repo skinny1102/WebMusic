@@ -122,6 +122,17 @@ font-family: "Roboto", sans-serif;
 {
     font-weight:600;
 }
+.k11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k11 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
 .k22 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

@@ -47,7 +47,7 @@ namespace testmusic
                 if (so == 5)
                 {
                     k = "Đức Phúc";
-                    imgg.Text += "<img class='af901b4457bbf85a9e7e6754bdb71c44.jpg' />";
+                    imgg.Text += "<img class='imgwward' src='/image/af901b4457bbf85a9e7e6754bdb71c44.jpg'/>";
                 }
                 using (SqlCommand cmd = new SqlCommand())
                 {

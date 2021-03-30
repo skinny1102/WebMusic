@@ -30,4 +30,5 @@
    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
+    <h3 style="text-align:center"> Tính Năng này Đăng Được cập nhật =)</h3>
 </asp:Content>

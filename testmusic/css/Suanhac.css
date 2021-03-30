@@ -2,13 +2,14 @@
 
 .imgg2 {
    
-    height: 100px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
-    border-radius: 15px;
+    
     cursor: pointer;
     float: left;
     margin: 0 0 10px 10px;
+    display:grid;
 }
 .imgg {
     height: 100px;

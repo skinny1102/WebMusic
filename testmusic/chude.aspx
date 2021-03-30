@@ -24,11 +24,13 @@
       </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   <h3 style="margin-left:20px;"> <a href="index.aspx" style="color:black;text-decoration:none" > Trang Chủ</a> - Tạo Chủ Đề</h3>
    <div class="taochude">
-     
+       <asp:Label runat="server" ID="lb1" Text="" ForeColor="Red"></asp:Label>
          <asp:ScriptManager ID="scrip1" runat="server"></asp:ScriptManager>
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                    <ContentTemplate>
+                     
                      <p> Tạo chủ đề Âm Nhạc : </p>
                   <asp:DropDownList ID="Dropdownlisttheloai" runat="server" AutoPostBack="True" OnSelectedIndexChanged="Dropdownlisttheloai_SelectedIndexChanged" >
                       </asp:DropDownList><br/>

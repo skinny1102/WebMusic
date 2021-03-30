@@ -52,10 +52,13 @@ namespace testmusic
                         cmd.ExecuteNonQuery();
                         con.Close();
                     }
+                  
                 }
+               
             }
             chude.Text = "";
-            Response.Redirect("chude.aspx");
+            lb1.Text = "Tạo Chủ Đề Thành Công";
+            //Response.Redirect("chude.aspx");
 
 
         }

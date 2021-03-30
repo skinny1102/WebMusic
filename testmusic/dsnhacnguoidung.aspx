@@ -55,6 +55,7 @@
                         </div>
                     <div >
                             <a class="btnxoa" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
+                            <a style="margin-left:5px;" href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>' class="btnxoa"> Sửa</a>
                     </div>
                     </div>
                         </ContentTemplate>         

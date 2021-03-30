@@ -32,11 +32,12 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
     
     <div class="form-fileup"> 
-        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
-        <h2>Thay Đổi Nội Dung</h2>
+        <asp:Label ID="Label1" runat="server" Text="" ForeColor="Red"></asp:Label>
+       
         <asp:Repeater runat="server" ID="rpp" OnItemCommand="rpp_ItemCommand">
             <ItemTemplate>
-                <div class="imgg2">                     
+                <div class="imgg2">    
+                     <h2>Thay Đổi Nội Dung Của Bài Hát : <%# Eval("DisplayName") %></h2>
                     <img class="imgg" src=" <%# Eval ("Image") %>"/> </div>           
                 </ItemTemplate>
         </asp:Repeater>

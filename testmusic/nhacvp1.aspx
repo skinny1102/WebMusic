@@ -41,8 +41,8 @@
     
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content2" runat="server">
-    <h3 style="margin-left: 5px;"> <a  class="tit" href="index.aspx">Trang chủ</a> > Tuyệt đỉnh Vpop-Hit </h3>
-    <br  style="width:85%"/>
+    <h3 style="margin-left: 5px;"> <a  class="tit" href="index.aspx" style="color:black">Trang chủ</a> > Tuyệt đỉnh Vpop-Hit </h3>
+    <hr  style="width:85%"/>
     <div class="chiacot">
     <div class="warp">
         <div class="slider">

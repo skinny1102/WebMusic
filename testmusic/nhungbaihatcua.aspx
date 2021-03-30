@@ -57,17 +57,18 @@
     </asp:Repeater>
         </div>
     </div>
-    <h4 style="margin-left:5px;"> Gợi Ý:</h4>
-    <div class="k22">        
+  
+        <h3 style="margin-left:15px;"> Gợi ý</h3>
+   <div class="k22" style="margin-left:10px;">        
       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=1" style="color:black;text-align:center">  <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" /> <p> Những bài hát hay nhất của Bích Phương </p>  </a> 
           </div>
          <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=2"  style="color:black;text-align:center">  <img class="img-k22" src="/image/123.jpg" />  <p> Những bài hát hay nhất của Đen Vâu </p> </a> 
           </div>
        <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=3"  style="color:black;text-align:center"> <img class="img-k22" src="/image/1333.jpg" /> <p> Những bài hát hay nhất của Vũ. </p>  </a> 
            </div>
-       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=4" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=4" style="color:black;text-align:center">   <img class="img-k22" src="/image/a9ts.jpg" />  <p> Những bài hát hay nhất của Hoàng Dũng </p> </a> 
           </div>
-       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=5" style="color:black;text-align:center">   <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" />  <p> Những bài hát hay nhất của Bích Phương </p> </a> 
+       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=5" style="color:black;text-align:center">   <img class="img-k22" src="/image/af901b4457bbf85a9e7e6754bdb71c44.jpg" />  <p> Những bài hát hay nhất của Đức Phúc </p> </a> 
           </div>
    </div>
 </asp:Content>
