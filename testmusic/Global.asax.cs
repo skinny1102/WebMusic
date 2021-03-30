@@ -12,12 +12,14 @@ namespace testmusic
 
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            Application["dem"] = 0;
         }
 
         protected void Session_Start(object sender, EventArgs e)
         {
             Session["dangnhap"] = "1";
+            Session["dem"] = 0;
+            Session ["time"] = DateTime.Now;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

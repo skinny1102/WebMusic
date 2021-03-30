@@ -42,9 +42,20 @@
                <asp:ContentPlaceHolder ID="Content2" runat="server">
                </asp:ContentPlaceHolder>
               </div>
-            </div>
+            </div> 
     
             <div class="footer">
+                <div>
+                    <asp:ScriptManager runat="server" ID="ScriptManager1"></asp:ScriptManager>
+                           <asp:UpdatePanel ID="UpdatePanel1" runat="server" RenderMode="Inline">
+                         <ContentTemplate>
+                         <asp:Label ID="Label1" runat="server" Text="Label"> </asp:Label> 
+                         <asp:Timer ID="Timer1" runat="server" 
+                         Interval="1000" OnTick = "Timer1_Tick">
+                         </asp:Timer>
+                        </ContentTemplate>
+                                </asp:UpdatePanel>
+                </div>
                 <div >
               <h3>TD MUSIC - Web Nghe nhạc </h3>
                 <h4> Email:huuthang.nguyen.986@gmail.com</h4>

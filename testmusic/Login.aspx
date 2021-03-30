@@ -7,7 +7,5 @@
     <link href="music/logincss.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
     <uc1:Login runat="server" ID="Login" />
-
 </asp:Content>
