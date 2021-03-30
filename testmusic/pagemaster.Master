@@ -14,9 +14,9 @@
 
   <form id="form1" runat="server" class="mainform">
         <div >
-            <div class="header">
-              <h2>Banner</h2>
-            </div>
+           <%-- <div class="header">
+              <a> <img  src="/image/template12.jpg" style="object-fit:cover; height:100% ;width:100%;"/></a>
+            </div>--%>
             <div class="topnav">
               <a class="ids"  href="index.aspx">Trang Chủ</a>
                 <% if (Session["dangnhap"].ToString() != "1" ){%>
@@ -45,7 +45,11 @@
             </div>
     
             <div class="footer">
-              <h2>Footer</h2>
+                <div >
+              <h3>TD MUSIC - Web Nghe nhạc </h3>
+                <h4> Email:huuthang.nguyen.986@gmail.com</h4>
+                <h4> Điện Thoại : 0974997025 .  Nguyễn Hữu Thắng - Trịnh Đức Duy</h4>
+               </div>
             </div>
         </div>
     </form>

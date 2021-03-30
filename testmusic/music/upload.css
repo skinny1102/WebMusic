@@ -104,3 +104,11 @@ margin:10px 0 0 9px;
     transition: all 0.3 ease;
     cursor: pointer;
 }
+.thongbao
+{   background-color:black;
+    position:relative;
+    height:500px;
+    width:500px;
+    z-index:100;
+    top:-500px;
+}

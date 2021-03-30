@@ -62,8 +62,8 @@
             </div>
 
     </div>
-      <h3> Danh Sách Nhạc Được Yêu Thích</h3>
-    <div class="hhit">
+      <h3 style="margin-left:15px;"> Danh Sách Nhạc Được Yêu Thích</h3>
+    <div class="hhit" style="margin-left:10px;">
       
     <div class="warp">
         <div class="slider">
@@ -87,8 +87,8 @@
         </div>
     </div>
 
-         <h3> Thể Loại</h3>
-         <div class="theloai"> 
+         <h3 style="margin-left:15px;"> Thể Loại</h3>
+         <div class="theloai" style="margin-left:10px;"> 
             <a href="namethloai.aspx?nametheloai=1" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Việt</a>
             <a href="namethloai.aspx?nametheloai=2"> Nhạc Hàn </a>
             <a href="namethloai.aspx?nametheloai=3" style="background-image:linear-gradient(-243deg, #fb6b60 0%, #FF2E55 100%)"> Nhạc Âu Mỹ</a>
@@ -102,15 +102,15 @@
        </div>
 
  
-    <h3> Hôm Nay Nghe Gì</h3>
-   <div class="k11">        
+    <h3 style="margin-left:15px;"> Hôm Nay Nghe Gì</h3>
+   <div class="k11" style="margin-left:10px;">        
       <div> <a href="nhactamtrang.aspx?idtt=1">  <img class="img-k11" src="/image/877eb506f1c9cb315ebb307c9db12b40.jpg" /> </a> </div>
          <div> <a href="nhactamtrang.aspx?idtt=2">  <img class="img-k11" src="/image/3b9a2890dd6262033a56614bcf22c227.jpg" /></a> </div>
           <div> <a href="nhactamtrang.aspx?idtt=3">  <img class="img-k11" src="/image/25ba89a65c8067be5be34166f045b99e.jpg" /></a> </div>
          <div> <a href="nhactamtrang.aspx?idtt=4">  <img class="img-k11" src="/image/3eaa1bb8b1750cf10c39d568cc061c8e.jpg" /></a> </div>
    </div>
-        <h3> Hôm Nay Nghe Gì</h3>
-   <div class="k22">        
+        <h3 style="margin-left:15px;"> Hôm Nay Nghe Gì</h3>
+   <div class="k22" style="margin-left:10px;">        
       <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=1" style="color:black;text-align:center">  <img class="img-k22" src="/image/landscape-avatar-copy-4-15912036198111330174400-crop-15912037063321439019614.jpg" /> <p> Những bài hát hay nhất của Bích Phương </p>  </a> 
           </div>
          <div class="aaaa2"> <a href="nhungbaihatcua.aspx?namecasi=2"  style="color:black;text-align:center">  <img class="img-k22" src="/image/123.jpg" />  <p> Những bài hát hay nhất của Đen Vâu </p> </a> 

@@ -15,7 +15,9 @@ body {
 }
 
 .header {
-    padding: 30px;
+    width:100%;
+    height:170px;
+    padding: 0px;
     text-align: center;
     background: white;
 }
@@ -95,7 +97,7 @@ body {
    /* background-color: #0C5DA5;*/
 }
 .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: white;
     background: #FFAF3D;

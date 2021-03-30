@@ -29,7 +29,7 @@
                    <li><a href="danhsachnhacdonggop.aspx" > Danh sách nhạc đã đóng góp</a> </li>
                    <% if (Session["dangnhap"].ToString() == "admin")
                    {%>
-                   <li> <a href="quanlynhac.aspx" >Quản Lý Nhạc Của Người Đăng</a></li>
+                   <li> <a href="quanlynhac.aspx" >Quản Lý Người Dùn/a></li>
                    <li> <a href="QuanLybaiha.aspx" >Quản Lý Bài Hát Hiển Thị</a></li>
                    <% } %>
                </ul>
@@ -88,8 +88,10 @@
             </asp:TemplateField>
                  <asp:TemplateField  headertext="Chức Năng">
                   <ItemTemplate>
+                      <div class="btntt">
                    <a href='Suanhac.aspx?iDmusic=<%# Eval("iDmusic") %>' class="btnsua"> Sửa</a>
                      <a class="btnxoa" href='xoanhac.aspx?idnhac=<%# Eval("iDmusic") %>&namenhac=<%# Eval("DisplayName") %>'> Xóa </a>
+                          </div>
                         </ContentTemplate>         
                         </ItemTemplate>
             </asp:TemplateField>
