@@ -28,14 +28,17 @@ namespace testmusic
 
 
             {
-                using (SqlCommand cmd = new SqlCommand())
+                using (SqlCommand cmd = new SqlCommand(" SELECT * from tblAccount where IDacount =@id and Password="+ passWord + "", con))
                 {
+                    cmd.Parameters.AddWithValue("@id", userName);
+                    //cmd.Parameters.AddWithValue("@password", passWord);
                     con.Open();
-                    cmd.Connection = con;
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.CommandText = "selectAcount";
-                    cmd.Parameters.AddWithValue("@taikhoan", userName);
-                    cmd.Parameters.AddWithValue("@matkhau", passWord);
+                   
+                    //cmd.Connection = con;
+                    //cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    //cmd.CommandText = "selectAcount";
+                    //cmd.Parameters.AddWithValue("@taikhoan", userName);
+                    //cmd.Parameters.AddWithValue("@matkhau", passWord);
                     using (SqlDataReader re = cmd.ExecuteReader())
                     {
                         if (re.HasRows == true)
